@@ -20,10 +20,10 @@
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">接下来，将</font><font style="vertical-align: inherit;">公共 BusTub 存储库</font></font><a href="https://git-scm.com/docs/git-push#Documentation/git-push.txt---mirror" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">镜像到您自己的私有 BusTub 存储库。</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">假设您的 GitHub 名称为</font></font><code>student</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，您的存储库名称为</font></font><code>bustub-private</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">镜像存储库的过程是：
 </font></font><div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>$ cd bustub-public
 
-# If you pull / push over HTTPS
+  *# If you pull / push over HTTPS
 $ git push https://github.com/student/bustub-private.git master
 
-# If you pull / push over SSH
+  *# If you pull / push over SSH
 $ git push git@github.com:student/bustub-private.git master
 </code></pre><div class="zeroclipboard-container">
    
@@ -39,7 +39,7 @@ $ rm -rf bustub-public
 </font></font><div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code># If you pull / push over HTTPS
 $ git clone https://github.com/student/bustub-private.git
 
-# If you pull / push over SSH
+    *# If you pull / push over SSH
 $ git clone git@github.com:student/bustub-private.git
 </code></pre><div class="zeroclipboard-container">
     
